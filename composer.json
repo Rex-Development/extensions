@@ -1,0 +1,20 @@
+{
+    "name": "rex-development/extensions",
+    "description": "Meine Flarum Extensions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dein Name",
+            "email": "dein.email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "RexDevelopment\\Extensions\\": "src/"
+        }
+    }
+}
